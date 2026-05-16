@@ -1,0 +1,835 @@
+=== BUSCA SEQUENCIAL ===
+Diretorio: data/txt
+Nome buscado: Mariana
+Algoritmo: KMP
+Arquivos analisados: 12
+Ocorrencias encontradas: 828
+Tempo: 46,431 ms
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 13 | Conteudo: linha=13 | nome=Mariana | acao=fez um experimento | valor=5094
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 21 | Conteudo: linha=21 | nome=Mariana | acao=analisou os resultados | valor=7983
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 57 | Conteudo: linha=57 | nome=Mariana | acao=analisou os resultados | valor=9410
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 72 | Conteudo: linha=72 | nome=Mariana | acao=estudou computacao | valor=2732
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 77 | Conteudo: linha=77 | nome=Mariana | acao=fez um experimento | valor=3802
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 117 | Conteudo: linha=117 | nome=Mariana | acao=fez um experimento | valor=7551
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 121 | Conteudo: linha=121 | nome=Mariana | acao=comparou as metricas | valor=9043
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 131 | Conteudo: linha=131 | nome=Mariana | acao=escreveu o relatorio | valor=9040
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 154 | Conteudo: linha=154 | nome=Mariana | acao=estudou computacao | valor=5630
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 167 | Conteudo: linha=167 | nome=Mariana | acao=otimizou o algoritmo | valor=1871
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 170 | Conteudo: linha=170 | nome=Mariana | acao=otimizou o algoritmo | valor=7935
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 173 | Conteudo: linha=173 | nome=Mariana | acao=comparou as metricas | valor=2992
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 196 | Conteudo: linha=196 | nome=Mariana | acao=executou o benchmark | valor=6005
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 208 | Conteudo: linha=208 | nome=Mariana | acao=otimizou o algoritmo | valor=8872
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 226 | Conteudo: linha=226 | nome=Mariana | acao=analisou os resultados | valor=2629
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 231 | Conteudo: linha=231 | nome=Mariana | acao=comparou as metricas | valor=7160
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 239 | Conteudo: linha=239 | nome=Mariana | acao=analisou os resultados | valor=1555
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 243 | Conteudo: linha=243 | nome=Mariana | acao=executou o benchmark | valor=9203
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 264 | Conteudo: linha=264 | nome=Mariana | acao=participou da aula | valor=7657
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 287 | Conteudo: linha=287 | nome=Mariana | acao=analisou os resultados | valor=6460
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 302 | Conteudo: linha=302 | nome=Mariana | acao=fez um experimento | valor=7517
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 328 | Conteudo: linha=328 | nome=Mariana | acao=executou o benchmark | valor=2168
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 337 | Conteudo: linha=337 | nome=Mariana | acao=estudou computacao | valor=4041
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 350 | Conteudo: linha=350 | nome=Mariana | acao=escreveu o relatorio | valor=8951
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 371 | Conteudo: linha=371 | nome=Mariana | acao=estudou computacao | valor=9257
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 384 | Conteudo: linha=384 | nome=Mariana | acao=analisou os resultados | valor=5570
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 387 | Conteudo: linha=387 | nome=Mariana | acao=otimizou o algoritmo | valor=5154
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 388 | Conteudo: linha=388 | nome=Mariana | acao=fez um experimento | valor=8503
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 390 | Conteudo: linha=390 | nome=Mariana | acao=otimizou o algoritmo | valor=6237
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 401 | Conteudo: linha=401 | nome=Mariana | acao=otimizou o algoritmo | valor=7715
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 417 | Conteudo: linha=417 | nome=Mariana | acao=fez um experimento | valor=6048
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 421 | Conteudo: linha=421 | nome=Mariana | acao=fez um experimento | valor=3035
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 430 | Conteudo: linha=430 | nome=Mariana | acao=participou da aula | valor=8940
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 432 | Conteudo: linha=432 | nome=Mariana | acao=executou o benchmark | valor=1066
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 444 | Conteudo: linha=444 | nome=Mariana | acao=executou o benchmark | valor=5804
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 473 | Conteudo: linha=473 | nome=Mariana | acao=analisou os resultados | valor=7820
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 498 | Conteudo: linha=498 | nome=Mariana | acao=escreveu o relatorio | valor=1174
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 518 | Conteudo: linha=518 | nome=Mariana | acao=otimizou o algoritmo | valor=1882
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 540 | Conteudo: linha=540 | nome=Mariana | acao=executou o benchmark | valor=4920
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 541 | Conteudo: linha=541 | nome=Mariana | acao=escreveu o relatorio | valor=3947
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 552 | Conteudo: linha=552 | nome=Mariana | acao=executou o benchmark | valor=2813
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 566 | Conteudo: linha=566 | nome=Mariana | acao=fez um experimento | valor=7482
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 576 | Conteudo: linha=576 | nome=Mariana | acao=otimizou o algoritmo | valor=1597
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 593 | Conteudo: linha=593 | nome=Mariana | acao=executou o benchmark | valor=7091
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 611 | Conteudo: linha=611 | nome=Mariana | acao=fez um experimento | valor=9575
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 633 | Conteudo: linha=633 | nome=Mariana | acao=fez um experimento | valor=2884
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 635 | Conteudo: linha=635 | nome=Mariana | acao=analisou os resultados | valor=1249
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 649 | Conteudo: linha=649 | nome=Mariana | acao=escreveu o relatorio | valor=6803
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 650 | Conteudo: linha=650 | nome=Mariana | acao=estudou computacao | valor=1898
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 659 | Conteudo: linha=659 | nome=Mariana | acao=fez um experimento | valor=4671
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 680 | Conteudo: linha=680 | nome=Mariana | acao=estudou computacao | valor=4045
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 687 | Conteudo: linha=687 | nome=Mariana | acao=executou o benchmark | valor=7517
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 689 | Conteudo: linha=689 | nome=Mariana | acao=otimizou o algoritmo | valor=7310
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 697 | Conteudo: linha=697 | nome=Mariana | acao=participou da aula | valor=1198
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 699 | Conteudo: linha=699 | nome=Mariana | acao=participou da aula | valor=4193
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 722 | Conteudo: linha=722 | nome=Mariana | acao=participou da aula | valor=4884
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 724 | Conteudo: linha=724 | nome=Mariana | acao=otimizou o algoritmo | valor=3226
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 725 | Conteudo: linha=725 | nome=Mariana | acao=participou da aula | valor=1534
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 742 | Conteudo: linha=742 | nome=Mariana | acao=comparou as metricas | valor=1795
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 758 | Conteudo: linha=758 | nome=Mariana | acao=participou da aula | valor=4954
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 779 | Conteudo: linha=779 | nome=Mariana | acao=fez um experimento | valor=8032
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 792 | Conteudo: linha=792 | nome=Mariana | acao=participou da aula | valor=8679
+Arquivo: data/txt/lote_1/dados_001.txt | Linha: 797 | Conteudo: linha=797 | nome=Mariana | acao=estudou computacao | valor=2035
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 8 | Conteudo: linha=8 | nome=Mariana | acao=comparou as metricas | valor=8867
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 45 | Conteudo: linha=45 | nome=Mariana | acao=otimizou o algoritmo | valor=6516
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 65 | Conteudo: linha=65 | nome=Mariana | acao=estudou computacao | valor=3540
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 80 | Conteudo: linha=80 | nome=Mariana | acao=participou da aula | valor=8624
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 81 | Conteudo: linha=81 | nome=Mariana | acao=executou o benchmark | valor=1433
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 102 | Conteudo: linha=102 | nome=Mariana | acao=comparou as metricas | valor=5136
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 112 | Conteudo: linha=112 | nome=Mariana | acao=estudou computacao | valor=9179
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 123 | Conteudo: linha=123 | nome=Mariana | acao=analisou os resultados | valor=5000
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 127 | Conteudo: linha=127 | nome=Mariana | acao=otimizou o algoritmo | valor=3713
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 130 | Conteudo: linha=130 | nome=Mariana | acao=analisou os resultados | valor=5144
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 135 | Conteudo: linha=135 | nome=Mariana | acao=otimizou o algoritmo | valor=2580
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 138 | Conteudo: linha=138 | nome=Mariana | acao=estudou computacao | valor=1892
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 139 | Conteudo: linha=139 | nome=Mariana | acao=estudou computacao | valor=7036
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 156 | Conteudo: linha=156 | nome=Mariana | acao=analisou os resultados | valor=3405
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 183 | Conteudo: linha=183 | nome=Mariana | acao=escreveu o relatorio | valor=9019
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 191 | Conteudo: linha=191 | nome=Mariana | acao=comparou as metricas | valor=3595
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 219 | Conteudo: linha=219 | nome=Mariana | acao=estudou computacao | valor=3265
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 234 | Conteudo: linha=234 | nome=Mariana | acao=analisou os resultados | valor=8104
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 238 | Conteudo: linha=238 | nome=Mariana | acao=escreveu o relatorio | valor=9775
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 244 | Conteudo: linha=244 | nome=Mariana | acao=estudou computacao | valor=9167
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 257 | Conteudo: linha=257 | nome=Mariana | acao=fez um experimento | valor=4715
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 263 | Conteudo: linha=263 | nome=Mariana | acao=fez um experimento | valor=6339
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 284 | Conteudo: linha=284 | nome=Mariana | acao=executou o benchmark | valor=7019
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 290 | Conteudo: linha=290 | nome=Mariana | acao=comparou as metricas | valor=4539
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 309 | Conteudo: linha=309 | nome=Mariana | acao=executou o benchmark | valor=3517
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 343 | Conteudo: linha=343 | nome=Mariana | acao=comparou as metricas | valor=2361
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 345 | Conteudo: linha=345 | nome=Mariana | acao=comparou as metricas | valor=1770
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 366 | Conteudo: linha=366 | nome=Mariana | acao=otimizou o algoritmo | valor=6137
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 368 | Conteudo: linha=368 | nome=Mariana | acao=executou o benchmark | valor=7664
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 393 | Conteudo: linha=393 | nome=Mariana | acao=estudou computacao | valor=7178
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 404 | Conteudo: linha=404 | nome=Mariana | acao=escreveu o relatorio | valor=8839
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 426 | Conteudo: linha=426 | nome=Mariana | acao=executou o benchmark | valor=8872
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 429 | Conteudo: linha=429 | nome=Mariana | acao=escreveu o relatorio | valor=5357
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 457 | Conteudo: linha=457 | nome=Mariana | acao=analisou os resultados | valor=8050
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 465 | Conteudo: linha=465 | nome=Mariana | acao=fez um experimento | valor=3658
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 489 | Conteudo: linha=489 | nome=Mariana | acao=executou o benchmark | valor=6301
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 490 | Conteudo: linha=490 | nome=Mariana | acao=fez um experimento | valor=5646
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 494 | Conteudo: linha=494 | nome=Mariana | acao=participou da aula | valor=2426
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 500 | Conteudo: linha=500 | nome=Mariana | acao=comparou as metricas | valor=3023
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 503 | Conteudo: linha=503 | nome=Mariana | acao=comparou as metricas | valor=5031
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 512 | Conteudo: linha=512 | nome=Mariana | acao=escreveu o relatorio | valor=6441
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 515 | Conteudo: linha=515 | nome=Mariana | acao=fez um experimento | valor=6738
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 525 | Conteudo: linha=525 | nome=Mariana | acao=comparou as metricas | valor=3989
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 526 | Conteudo: linha=526 | nome=Mariana | acao=analisou os resultados | valor=5848
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 641 | Conteudo: linha=641 | nome=Mariana | acao=estudou computacao | valor=6803
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 667 | Conteudo: linha=667 | nome=Mariana | acao=analisou os resultados | valor=8058
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 681 | Conteudo: linha=681 | nome=Mariana | acao=analisou os resultados | valor=8818
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 685 | Conteudo: linha=685 | nome=Mariana | acao=executou o benchmark | valor=5334
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 687 | Conteudo: linha=687 | nome=Mariana | acao=estudou computacao | valor=7910
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 697 | Conteudo: linha=697 | nome=Mariana | acao=escreveu o relatorio | valor=1435
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 708 | Conteudo: linha=708 | nome=Mariana | acao=participou da aula | valor=2236
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 720 | Conteudo: linha=720 | nome=Mariana | acao=executou o benchmark | valor=9154
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 739 | Conteudo: linha=739 | nome=Mariana | acao=executou o benchmark | valor=4455
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 740 | Conteudo: linha=740 | nome=Mariana | acao=fez um experimento | valor=9083
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 745 | Conteudo: linha=745 | nome=Mariana | acao=analisou os resultados | valor=1621
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 774 | Conteudo: linha=774 | nome=Mariana | acao=analisou os resultados | valor=1834
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 785 | Conteudo: linha=785 | nome=Mariana | acao=fez um experimento | valor=5151
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 793 | Conteudo: linha=793 | nome=Mariana | acao=executou o benchmark | valor=1416
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 796 | Conteudo: linha=796 | nome=Mariana | acao=otimizou o algoritmo | valor=6697
+Arquivo: data/txt/lote_1/dados_002.txt | Linha: 800 | Conteudo: linha=800 | nome=Mariana | acao=comparou as metricas | valor=4332
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 1 | Conteudo: linha=1 | nome=Mariana | acao=analisou os resultados | valor=1900
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 8 | Conteudo: linha=8 | nome=Mariana | acao=executou o benchmark | valor=8740
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 23 | Conteudo: linha=23 | nome=Mariana | acao=analisou os resultados | valor=6941
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 24 | Conteudo: linha=24 | nome=Mariana | acao=executou o benchmark | valor=1456
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 38 | Conteudo: linha=38 | nome=Mariana | acao=escreveu o relatorio | valor=2066
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 46 | Conteudo: linha=46 | nome=Mariana | acao=fez um experimento | valor=2795
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 52 | Conteudo: linha=52 | nome=Mariana | acao=participou da aula | valor=5547
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 53 | Conteudo: linha=53 | nome=Mariana | acao=executou o benchmark | valor=7302
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 62 | Conteudo: linha=62 | nome=Mariana | acao=fez um experimento | valor=9706
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 74 | Conteudo: linha=74 | nome=Mariana | acao=analisou os resultados | valor=5712
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 79 | Conteudo: linha=79 | nome=Mariana | acao=analisou os resultados | valor=4258
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 81 | Conteudo: linha=81 | nome=Mariana | acao=fez um experimento | valor=2749
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 83 | Conteudo: linha=83 | nome=Mariana | acao=estudou computacao | valor=8258
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 95 | Conteudo: linha=95 | nome=Mariana | acao=fez um experimento | valor=7654
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 106 | Conteudo: linha=106 | nome=Mariana | acao=executou o benchmark | valor=3691
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 109 | Conteudo: linha=109 | nome=Mariana | acao=fez um experimento | valor=4989
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 147 | Conteudo: linha=147 | nome=Mariana | acao=executou o benchmark | valor=9758
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 160 | Conteudo: linha=160 | nome=Mariana | acao=fez um experimento | valor=3238
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 175 | Conteudo: linha=175 | nome=Mariana | acao=comparou as metricas | valor=6849
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 179 | Conteudo: linha=179 | nome=Mariana | acao=escreveu o relatorio | valor=8334
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 186 | Conteudo: linha=186 | nome=Mariana | acao=estudou computacao | valor=2279
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 191 | Conteudo: linha=191 | nome=Mariana | acao=analisou os resultados | valor=5470
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 196 | Conteudo: linha=196 | nome=Mariana | acao=fez um experimento | valor=5958
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 204 | Conteudo: linha=204 | nome=Mariana | acao=analisou os resultados | valor=7869
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 209 | Conteudo: linha=209 | nome=Mariana | acao=fez um experimento | valor=7982
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 211 | Conteudo: linha=211 | nome=Mariana | acao=estudou computacao | valor=7540
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 241 | Conteudo: linha=241 | nome=Mariana | acao=estudou computacao | valor=5644
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 250 | Conteudo: linha=250 | nome=Mariana | acao=fez um experimento | valor=4866
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 265 | Conteudo: linha=265 | nome=Mariana | acao=analisou os resultados | valor=9318
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 268 | Conteudo: linha=268 | nome=Mariana | acao=analisou os resultados | valor=6487
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 273 | Conteudo: linha=273 | nome=Mariana | acao=comparou as metricas | valor=3035
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 284 | Conteudo: linha=284 | nome=Mariana | acao=estudou computacao | valor=2091
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 288 | Conteudo: linha=288 | nome=Mariana | acao=executou o benchmark | valor=5616
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 290 | Conteudo: linha=290 | nome=Mariana | acao=participou da aula | valor=3558
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 312 | Conteudo: linha=312 | nome=Mariana | acao=executou o benchmark | valor=9166
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 317 | Conteudo: linha=317 | nome=Mariana | acao=otimizou o algoritmo | valor=3313
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 322 | Conteudo: linha=322 | nome=Mariana | acao=fez um experimento | valor=7555
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 335 | Conteudo: linha=335 | nome=Mariana | acao=participou da aula | valor=4929
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 359 | Conteudo: linha=359 | nome=Mariana | acao=otimizou o algoritmo | valor=8801
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 363 | Conteudo: linha=363 | nome=Mariana | acao=executou o benchmark | valor=3971
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 364 | Conteudo: linha=364 | nome=Mariana | acao=participou da aula | valor=4160
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 376 | Conteudo: linha=376 | nome=Mariana | acao=estudou computacao | valor=2875
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 383 | Conteudo: linha=383 | nome=Mariana | acao=estudou computacao | valor=6129
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 413 | Conteudo: linha=413 | nome=Mariana | acao=executou o benchmark | valor=5368
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 423 | Conteudo: linha=423 | nome=Mariana | acao=escreveu o relatorio | valor=9307
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 443 | Conteudo: linha=443 | nome=Mariana | acao=analisou os resultados | valor=4894
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 451 | Conteudo: linha=451 | nome=Mariana | acao=participou da aula | valor=2730
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 471 | Conteudo: linha=471 | nome=Mariana | acao=escreveu o relatorio | valor=2799
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 486 | Conteudo: linha=486 | nome=Mariana | acao=escreveu o relatorio | valor=2540
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 523 | Conteudo: linha=523 | nome=Mariana | acao=comparou as metricas | valor=1791
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 539 | Conteudo: linha=539 | nome=Mariana | acao=participou da aula | valor=4336
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 542 | Conteudo: linha=542 | nome=Mariana | acao=participou da aula | valor=7070
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 564 | Conteudo: linha=564 | nome=Mariana | acao=estudou computacao | valor=2122
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 565 | Conteudo: linha=565 | nome=Mariana | acao=participou da aula | valor=1549
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 573 | Conteudo: linha=573 | nome=Mariana | acao=executou o benchmark | valor=9083
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 591 | Conteudo: linha=591 | nome=Mariana | acao=escreveu o relatorio | valor=3117
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 626 | Conteudo: linha=626 | nome=Mariana | acao=estudou computacao | valor=3002
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 633 | Conteudo: linha=633 | nome=Mariana | acao=participou da aula | valor=6524
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 636 | Conteudo: linha=636 | nome=Mariana | acao=otimizou o algoritmo | valor=8915
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 676 | Conteudo: linha=676 | nome=Mariana | acao=executou o benchmark | valor=8190
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 690 | Conteudo: linha=690 | nome=Mariana | acao=estudou computacao | valor=5175
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 694 | Conteudo: linha=694 | nome=Mariana | acao=analisou os resultados | valor=6433
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 728 | Conteudo: linha=728 | nome=Mariana | acao=executou o benchmark | valor=6286
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 739 | Conteudo: linha=739 | nome=Mariana | acao=executou o benchmark | valor=4372
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 746 | Conteudo: linha=746 | nome=Mariana | acao=estudou computacao | valor=2825
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 779 | Conteudo: linha=779 | nome=Mariana | acao=analisou os resultados | valor=1687
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 784 | Conteudo: linha=784 | nome=Mariana | acao=executou o benchmark | valor=7566
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 790 | Conteudo: linha=790 | nome=Mariana | acao=estudou computacao | valor=5385
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 791 | Conteudo: linha=791 | nome=Mariana | acao=executou o benchmark | valor=9585
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 797 | Conteudo: linha=797 | nome=Mariana | acao=escreveu o relatorio | valor=3605
+Arquivo: data/txt/lote_1/dados_003.txt | Linha: 799 | Conteudo: linha=799 | nome=Mariana | acao=fez um experimento | valor=3967
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 7 | Conteudo: linha=7 | nome=Mariana | acao=fez um experimento | valor=8132
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 26 | Conteudo: linha=26 | nome=Mariana | acao=estudou computacao | valor=2476
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 28 | Conteudo: linha=28 | nome=Mariana | acao=analisou os resultados | valor=9664
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 34 | Conteudo: linha=34 | nome=Mariana | acao=analisou os resultados | valor=7498
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 46 | Conteudo: linha=46 | nome=Mariana | acao=otimizou o algoritmo | valor=1722
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 47 | Conteudo: linha=47 | nome=Mariana | acao=analisou os resultados | valor=8568
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 75 | Conteudo: linha=75 | nome=Mariana | acao=estudou computacao | valor=2368
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 90 | Conteudo: linha=90 | nome=Mariana | acao=otimizou o algoritmo | valor=8945
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 92 | Conteudo: linha=92 | nome=Mariana | acao=comparou as metricas | valor=4940
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 96 | Conteudo: linha=96 | nome=Mariana | acao=executou o benchmark | valor=3265
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 121 | Conteudo: linha=121 | nome=Mariana | acao=fez um experimento | valor=2338
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 152 | Conteudo: linha=152 | nome=Mariana | acao=analisou os resultados | valor=7814
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 156 | Conteudo: linha=156 | nome=Mariana | acao=comparou as metricas | valor=7679
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 167 | Conteudo: linha=167 | nome=Mariana | acao=escreveu o relatorio | valor=9763
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 178 | Conteudo: linha=178 | nome=Mariana | acao=escreveu o relatorio | valor=7586
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 184 | Conteudo: linha=184 | nome=Mariana | acao=executou o benchmark | valor=7975
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 185 | Conteudo: linha=185 | nome=Mariana | acao=escreveu o relatorio | valor=2708
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 198 | Conteudo: linha=198 | nome=Mariana | acao=escreveu o relatorio | valor=3845
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 208 | Conteudo: linha=208 | nome=Mariana | acao=comparou as metricas | valor=3038
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 223 | Conteudo: linha=223 | nome=Mariana | acao=fez um experimento | valor=9259
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 235 | Conteudo: linha=235 | nome=Mariana | acao=otimizou o algoritmo | valor=2498
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 240 | Conteudo: linha=240 | nome=Mariana | acao=comparou as metricas | valor=6352
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 251 | Conteudo: linha=251 | nome=Mariana | acao=analisou os resultados | valor=6400
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 262 | Conteudo: linha=262 | nome=Mariana | acao=analisou os resultados | valor=2958
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 270 | Conteudo: linha=270 | nome=Mariana | acao=estudou computacao | valor=8873
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 273 | Conteudo: linha=273 | nome=Mariana | acao=executou o benchmark | valor=9160
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 276 | Conteudo: linha=276 | nome=Mariana | acao=participou da aula | valor=3190
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 277 | Conteudo: linha=277 | nome=Mariana | acao=fez um experimento | valor=8191
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 315 | Conteudo: linha=315 | nome=Mariana | acao=participou da aula | valor=2369
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 317 | Conteudo: linha=317 | nome=Mariana | acao=executou o benchmark | valor=3752
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 331 | Conteudo: linha=331 | nome=Mariana | acao=participou da aula | valor=6065
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 345 | Conteudo: linha=345 | nome=Mariana | acao=analisou os resultados | valor=4664
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 349 | Conteudo: linha=349 | nome=Mariana | acao=escreveu o relatorio | valor=9749
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 364 | Conteudo: linha=364 | nome=Mariana | acao=executou o benchmark | valor=8658
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 368 | Conteudo: linha=368 | nome=Mariana | acao=fez um experimento | valor=4406
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 376 | Conteudo: linha=376 | nome=Mariana | acao=participou da aula | valor=3961
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 382 | Conteudo: linha=382 | nome=Mariana | acao=participou da aula | valor=9356
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 396 | Conteudo: linha=396 | nome=Mariana | acao=estudou computacao | valor=2066
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 412 | Conteudo: linha=412 | nome=Mariana | acao=escreveu o relatorio | valor=6882
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 413 | Conteudo: linha=413 | nome=Mariana | acao=comparou as metricas | valor=4668
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 423 | Conteudo: linha=423 | nome=Mariana | acao=executou o benchmark | valor=9863
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 430 | Conteudo: linha=430 | nome=Mariana | acao=analisou os resultados | valor=4394
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 435 | Conteudo: linha=435 | nome=Mariana | acao=fez um experimento | valor=8483
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 446 | Conteudo: linha=446 | nome=Mariana | acao=fez um experimento | valor=5051
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 462 | Conteudo: linha=462 | nome=Mariana | acao=participou da aula | valor=1673
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 494 | Conteudo: linha=494 | nome=Mariana | acao=analisou os resultados | valor=9534
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 497 | Conteudo: linha=497 | nome=Mariana | acao=comparou as metricas | valor=8752
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 514 | Conteudo: linha=514 | nome=Mariana | acao=participou da aula | valor=6019
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 550 | Conteudo: linha=550 | nome=Mariana | acao=estudou computacao | valor=1250
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 573 | Conteudo: linha=573 | nome=Mariana | acao=participou da aula | valor=2078
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 580 | Conteudo: linha=580 | nome=Mariana | acao=comparou as metricas | valor=4855
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 596 | Conteudo: linha=596 | nome=Mariana | acao=estudou computacao | valor=4901
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 608 | Conteudo: linha=608 | nome=Mariana | acao=escreveu o relatorio | valor=7131
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 642 | Conteudo: linha=642 | nome=Mariana | acao=fez um experimento | valor=6089
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 644 | Conteudo: linha=644 | nome=Mariana | acao=participou da aula | valor=1856
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 646 | Conteudo: linha=646 | nome=Mariana | acao=comparou as metricas | valor=4810
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 652 | Conteudo: linha=652 | nome=Mariana | acao=analisou os resultados | valor=6674
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 654 | Conteudo: linha=654 | nome=Mariana | acao=participou da aula | valor=1899
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 673 | Conteudo: linha=673 | nome=Mariana | acao=estudou computacao | valor=4241
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 689 | Conteudo: linha=689 | nome=Mariana | acao=fez um experimento | valor=8975
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 696 | Conteudo: linha=696 | nome=Mariana | acao=fez um experimento | valor=4285
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 697 | Conteudo: linha=697 | nome=Mariana | acao=otimizou o algoritmo | valor=3404
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 720 | Conteudo: linha=720 | nome=Mariana | acao=fez um experimento | valor=6810
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 736 | Conteudo: linha=736 | nome=Mariana | acao=escreveu o relatorio | valor=9822
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 746 | Conteudo: linha=746 | nome=Mariana | acao=escreveu o relatorio | valor=9667
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 759 | Conteudo: linha=759 | nome=Mariana | acao=escreveu o relatorio | valor=8255
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 779 | Conteudo: linha=779 | nome=Mariana | acao=analisou os resultados | valor=4591
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 786 | Conteudo: linha=786 | nome=Mariana | acao=escreveu o relatorio | valor=4862
+Arquivo: data/txt/lote_1/dados_004.txt | Linha: 794 | Conteudo: linha=794 | nome=Mariana | acao=analisou os resultados | valor=3334
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 9 | Conteudo: linha=9 | nome=Mariana | acao=participou da aula | valor=8956
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 17 | Conteudo: linha=17 | nome=Mariana | acao=participou da aula | valor=4112
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 21 | Conteudo: linha=21 | nome=Mariana | acao=executou o benchmark | valor=3151
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 56 | Conteudo: linha=56 | nome=Mariana | acao=estudou computacao | valor=5754
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 68 | Conteudo: linha=68 | nome=Mariana | acao=escreveu o relatorio | valor=7789
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 75 | Conteudo: linha=75 | nome=Mariana | acao=otimizou o algoritmo | valor=8255
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 89 | Conteudo: linha=89 | nome=Mariana | acao=executou o benchmark | valor=1177
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 100 | Conteudo: linha=100 | nome=Mariana | acao=executou o benchmark | valor=1553
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 112 | Conteudo: linha=112 | nome=Mariana | acao=participou da aula | valor=4672
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 116 | Conteudo: linha=116 | nome=Mariana | acao=participou da aula | valor=8573
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 136 | Conteudo: linha=136 | nome=Mariana | acao=analisou os resultados | valor=3358
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 141 | Conteudo: linha=141 | nome=Mariana | acao=fez um experimento | valor=1365
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 144 | Conteudo: linha=144 | nome=Mariana | acao=analisou os resultados | valor=1056
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 149 | Conteudo: linha=149 | nome=Mariana | acao=escreveu o relatorio | valor=5166
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 156 | Conteudo: linha=156 | nome=Mariana | acao=executou o benchmark | valor=8635
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 163 | Conteudo: linha=163 | nome=Mariana | acao=fez um experimento | valor=6211
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 164 | Conteudo: linha=164 | nome=Mariana | acao=fez um experimento | valor=7930
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 165 | Conteudo: linha=165 | nome=Mariana | acao=executou o benchmark | valor=2149
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 177 | Conteudo: linha=177 | nome=Mariana | acao=escreveu o relatorio | valor=8390
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 188 | Conteudo: linha=188 | nome=Mariana | acao=otimizou o algoritmo | valor=1586
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 205 | Conteudo: linha=205 | nome=Mariana | acao=analisou os resultados | valor=8096
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 214 | Conteudo: linha=214 | nome=Mariana | acao=participou da aula | valor=5457
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 229 | Conteudo: linha=229 | nome=Mariana | acao=participou da aula | valor=9699
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 235 | Conteudo: linha=235 | nome=Mariana | acao=analisou os resultados | valor=4940
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 236 | Conteudo: linha=236 | nome=Mariana | acao=fez um experimento | valor=7483
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 243 | Conteudo: linha=243 | nome=Mariana | acao=escreveu o relatorio | valor=2936
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 251 | Conteudo: linha=251 | nome=Mariana | acao=comparou as metricas | valor=3982
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 259 | Conteudo: linha=259 | nome=Mariana | acao=otimizou o algoritmo | valor=5775
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 261 | Conteudo: linha=261 | nome=Mariana | acao=otimizou o algoritmo | valor=8154
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 272 | Conteudo: linha=272 | nome=Mariana | acao=executou o benchmark | valor=2018
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 290 | Conteudo: linha=290 | nome=Mariana | acao=otimizou o algoritmo | valor=7867
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 295 | Conteudo: linha=295 | nome=Mariana | acao=estudou computacao | valor=1498
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 318 | Conteudo: linha=318 | nome=Mariana | acao=analisou os resultados | valor=5173
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 322 | Conteudo: linha=322 | nome=Mariana | acao=analisou os resultados | valor=4777
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 326 | Conteudo: linha=326 | nome=Mariana | acao=fez um experimento | valor=5346
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 348 | Conteudo: linha=348 | nome=Mariana | acao=analisou os resultados | valor=2454
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 371 | Conteudo: linha=371 | nome=Mariana | acao=comparou as metricas | valor=5480
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 391 | Conteudo: linha=391 | nome=Mariana | acao=estudou computacao | valor=7423
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 393 | Conteudo: linha=393 | nome=Mariana | acao=estudou computacao | valor=3097
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 415 | Conteudo: linha=415 | nome=Mariana | acao=escreveu o relatorio | valor=1822
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 443 | Conteudo: linha=443 | nome=Mariana | acao=executou o benchmark | valor=5304
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 449 | Conteudo: linha=449 | nome=Mariana | acao=analisou os resultados | valor=8791
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 475 | Conteudo: linha=475 | nome=Mariana | acao=escreveu o relatorio | valor=6832
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 487 | Conteudo: linha=487 | nome=Mariana | acao=analisou os resultados | valor=8179
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 489 | Conteudo: linha=489 | nome=Mariana | acao=estudou computacao | valor=2738
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 494 | Conteudo: linha=494 | nome=Mariana | acao=estudou computacao | valor=2305
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 554 | Conteudo: linha=554 | nome=Mariana | acao=executou o benchmark | valor=4825
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 557 | Conteudo: linha=557 | nome=Mariana | acao=executou o benchmark | valor=5996
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 559 | Conteudo: linha=559 | nome=Mariana | acao=participou da aula | valor=5277
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 589 | Conteudo: linha=589 | nome=Mariana | acao=comparou as metricas | valor=4933
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 594 | Conteudo: linha=594 | nome=Mariana | acao=comparou as metricas | valor=9980
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 616 | Conteudo: linha=616 | nome=Mariana | acao=comparou as metricas | valor=4871
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 619 | Conteudo: linha=619 | nome=Mariana | acao=estudou computacao | valor=5428
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 655 | Conteudo: linha=655 | nome=Mariana | acao=comparou as metricas | valor=2584
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 661 | Conteudo: linha=661 | nome=Mariana | acao=analisou os resultados | valor=1320
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 665 | Conteudo: linha=665 | nome=Mariana | acao=escreveu o relatorio | valor=5816
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 666 | Conteudo: linha=666 | nome=Mariana | acao=estudou computacao | valor=9907
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 671 | Conteudo: linha=671 | nome=Mariana | acao=otimizou o algoritmo | valor=6106
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 679 | Conteudo: linha=679 | nome=Mariana | acao=participou da aula | valor=2146
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 684 | Conteudo: linha=684 | nome=Mariana | acao=analisou os resultados | valor=6226
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 696 | Conteudo: linha=696 | nome=Mariana | acao=comparou as metricas | valor=6855
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 697 | Conteudo: linha=697 | nome=Mariana | acao=participou da aula | valor=8919
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 720 | Conteudo: linha=720 | nome=Mariana | acao=fez um experimento | valor=7996
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 732 | Conteudo: linha=732 | nome=Mariana | acao=escreveu o relatorio | valor=2797
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 742 | Conteudo: linha=742 | nome=Mariana | acao=analisou os resultados | valor=8346
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 755 | Conteudo: linha=755 | nome=Mariana | acao=estudou computacao | valor=4222
+Arquivo: data/txt/lote_1/dados_005.txt | Linha: 781 | Conteudo: linha=781 | nome=Mariana | acao=comparou as metricas | valor=4578
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 11 | Conteudo: linha=11 | nome=Mariana | acao=estudou computacao | valor=9517
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 49 | Conteudo: linha=49 | nome=Mariana | acao=fez um experimento | valor=6465
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 65 | Conteudo: linha=65 | nome=Mariana | acao=executou o benchmark | valor=5050
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 71 | Conteudo: linha=71 | nome=Mariana | acao=comparou as metricas | valor=9854
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 75 | Conteudo: linha=75 | nome=Mariana | acao=participou da aula | valor=9900
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 77 | Conteudo: linha=77 | nome=Mariana | acao=participou da aula | valor=4998
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 78 | Conteudo: linha=78 | nome=Mariana | acao=estudou computacao | valor=4902
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 85 | Conteudo: linha=85 | nome=Mariana | acao=comparou as metricas | valor=1964
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 121 | Conteudo: linha=121 | nome=Mariana | acao=executou o benchmark | valor=8393
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 127 | Conteudo: linha=127 | nome=Mariana | acao=executou o benchmark | valor=1781
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 171 | Conteudo: linha=171 | nome=Mariana | acao=fez um experimento | valor=2595
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 193 | Conteudo: linha=193 | nome=Mariana | acao=comparou as metricas | valor=1542
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 202 | Conteudo: linha=202 | nome=Mariana | acao=estudou computacao | valor=9429
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 221 | Conteudo: linha=221 | nome=Mariana | acao=comparou as metricas | valor=6924
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 258 | Conteudo: linha=258 | nome=Mariana | acao=otimizou o algoritmo | valor=6220
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 260 | Conteudo: linha=260 | nome=Mariana | acao=fez um experimento | valor=5510
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 267 | Conteudo: linha=267 | nome=Mariana | acao=otimizou o algoritmo | valor=1081
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 279 | Conteudo: linha=279 | nome=Mariana | acao=otimizou o algoritmo | valor=7308
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 292 | Conteudo: linha=292 | nome=Mariana | acao=comparou as metricas | valor=1520
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 304 | Conteudo: linha=304 | nome=Mariana | acao=executou o benchmark | valor=2812
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 306 | Conteudo: linha=306 | nome=Mariana | acao=participou da aula | valor=3144
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 310 | Conteudo: linha=310 | nome=Mariana | acao=comparou as metricas | valor=7864
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 314 | Conteudo: linha=314 | nome=Mariana | acao=executou o benchmark | valor=3762
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 324 | Conteudo: linha=324 | nome=Mariana | acao=fez um experimento | valor=5559
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 339 | Conteudo: linha=339 | nome=Mariana | acao=escreveu o relatorio | valor=4089
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 342 | Conteudo: linha=342 | nome=Mariana | acao=otimizou o algoritmo | valor=5599
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 346 | Conteudo: linha=346 | nome=Mariana | acao=otimizou o algoritmo | valor=3609
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 347 | Conteudo: linha=347 | nome=Mariana | acao=executou o benchmark | valor=7185
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 348 | Conteudo: linha=348 | nome=Mariana | acao=otimizou o algoritmo | valor=4380
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 405 | Conteudo: linha=405 | nome=Mariana | acao=participou da aula | valor=4097
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 416 | Conteudo: linha=416 | nome=Mariana | acao=analisou os resultados | valor=1764
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 434 | Conteudo: linha=434 | nome=Mariana | acao=fez um experimento | valor=7242
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 450 | Conteudo: linha=450 | nome=Mariana | acao=analisou os resultados | valor=1341
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 454 | Conteudo: linha=454 | nome=Mariana | acao=analisou os resultados | valor=3709
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 469 | Conteudo: linha=469 | nome=Mariana | acao=participou da aula | valor=8760
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 479 | Conteudo: linha=479 | nome=Mariana | acao=analisou os resultados | valor=4573
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 487 | Conteudo: linha=487 | nome=Mariana | acao=fez um experimento | valor=5527
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 489 | Conteudo: linha=489 | nome=Mariana | acao=participou da aula | valor=3789
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 503 | Conteudo: linha=503 | nome=Mariana | acao=comparou as metricas | valor=1674
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 508 | Conteudo: linha=508 | nome=Mariana | acao=executou o benchmark | valor=1898
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 521 | Conteudo: linha=521 | nome=Mariana | acao=escreveu o relatorio | valor=1457
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 524 | Conteudo: linha=524 | nome=Mariana | acao=fez um experimento | valor=7170
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 577 | Conteudo: linha=577 | nome=Mariana | acao=fez um experimento | valor=1065
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 581 | Conteudo: linha=581 | nome=Mariana | acao=otimizou o algoritmo | valor=9228
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 591 | Conteudo: linha=591 | nome=Mariana | acao=escreveu o relatorio | valor=8720
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 601 | Conteudo: linha=601 | nome=Mariana | acao=estudou computacao | valor=3918
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 606 | Conteudo: linha=606 | nome=Mariana | acao=fez um experimento | valor=2358
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 615 | Conteudo: linha=615 | nome=Mariana | acao=participou da aula | valor=8829
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 638 | Conteudo: linha=638 | nome=Mariana | acao=escreveu o relatorio | valor=7052
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 654 | Conteudo: linha=654 | nome=Mariana | acao=executou o benchmark | valor=8929
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 666 | Conteudo: linha=666 | nome=Mariana | acao=estudou computacao | valor=3556
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 669 | Conteudo: linha=669 | nome=Mariana | acao=estudou computacao | valor=6423
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 673 | Conteudo: linha=673 | nome=Mariana | acao=fez um experimento | valor=1285
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 682 | Conteudo: linha=682 | nome=Mariana | acao=estudou computacao | valor=3792
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 694 | Conteudo: linha=694 | nome=Mariana | acao=otimizou o algoritmo | valor=8822
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 695 | Conteudo: linha=695 | nome=Mariana | acao=participou da aula | valor=7307
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 703 | Conteudo: linha=703 | nome=Mariana | acao=estudou computacao | valor=8423
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 707 | Conteudo: linha=707 | nome=Mariana | acao=participou da aula | valor=6080
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 724 | Conteudo: linha=724 | nome=Mariana | acao=analisou os resultados | valor=5040
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 727 | Conteudo: linha=727 | nome=Mariana | acao=executou o benchmark | valor=9415
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 769 | Conteudo: linha=769 | nome=Mariana | acao=estudou computacao | valor=3854
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 775 | Conteudo: linha=775 | nome=Mariana | acao=participou da aula | valor=1478
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 780 | Conteudo: linha=780 | nome=Mariana | acao=otimizou o algoritmo | valor=2903
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 782 | Conteudo: linha=782 | nome=Mariana | acao=executou o benchmark | valor=2683
+Arquivo: data/txt/lote_1/dados_006.txt | Linha: 783 | Conteudo: linha=783 | nome=Mariana | acao=participou da aula | valor=8820
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 11 | Conteudo: linha=11 | nome=Mariana | acao=executou o benchmark | valor=7261
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 19 | Conteudo: linha=19 | nome=Mariana | acao=otimizou o algoritmo | valor=5072
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 21 | Conteudo: linha=21 | nome=Mariana | acao=otimizou o algoritmo | valor=9821
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 36 | Conteudo: linha=36 | nome=Mariana | acao=escreveu o relatorio | valor=2472
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 73 | Conteudo: linha=73 | nome=Mariana | acao=participou da aula | valor=3580
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 74 | Conteudo: linha=74 | nome=Mariana | acao=participou da aula | valor=7779
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 88 | Conteudo: linha=88 | nome=Mariana | acao=comparou as metricas | valor=4348
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 108 | Conteudo: linha=108 | nome=Mariana | acao=otimizou o algoritmo | valor=9426
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 109 | Conteudo: linha=109 | nome=Mariana | acao=participou da aula | valor=2294
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 140 | Conteudo: linha=140 | nome=Mariana | acao=estudou computacao | valor=3368
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 143 | Conteudo: linha=143 | nome=Mariana | acao=analisou os resultados | valor=4222
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 144 | Conteudo: linha=144 | nome=Mariana | acao=executou o benchmark | valor=4829
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 175 | Conteudo: linha=175 | nome=Mariana | acao=executou o benchmark | valor=1365
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 179 | Conteudo: linha=179 | nome=Mariana | acao=comparou as metricas | valor=7134
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 182 | Conteudo: linha=182 | nome=Mariana | acao=fez um experimento | valor=5463
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 191 | Conteudo: linha=191 | nome=Mariana | acao=estudou computacao | valor=5960
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 241 | Conteudo: linha=241 | nome=Mariana | acao=otimizou o algoritmo | valor=6096
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 250 | Conteudo: linha=250 | nome=Mariana | acao=executou o benchmark | valor=5088
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 253 | Conteudo: linha=253 | nome=Mariana | acao=fez um experimento | valor=3475
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 264 | Conteudo: linha=264 | nome=Mariana | acao=estudou computacao | valor=5754
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 274 | Conteudo: linha=274 | nome=Mariana | acao=estudou computacao | valor=3076
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 277 | Conteudo: linha=277 | nome=Mariana | acao=executou o benchmark | valor=9906
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 286 | Conteudo: linha=286 | nome=Mariana | acao=executou o benchmark | valor=4149
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 306 | Conteudo: linha=306 | nome=Mariana | acao=escreveu o relatorio | valor=4817
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 323 | Conteudo: linha=323 | nome=Mariana | acao=escreveu o relatorio | valor=6968
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 325 | Conteudo: linha=325 | nome=Mariana | acao=participou da aula | valor=8017
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 393 | Conteudo: linha=393 | nome=Mariana | acao=analisou os resultados | valor=2060
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 402 | Conteudo: linha=402 | nome=Mariana | acao=estudou computacao | valor=2056
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 417 | Conteudo: linha=417 | nome=Mariana | acao=escreveu o relatorio | valor=9441
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 426 | Conteudo: linha=426 | nome=Mariana | acao=comparou as metricas | valor=5245
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 434 | Conteudo: linha=434 | nome=Mariana | acao=fez um experimento | valor=5537
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 436 | Conteudo: linha=436 | nome=Mariana | acao=analisou os resultados | valor=5249
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 446 | Conteudo: linha=446 | nome=Mariana | acao=comparou as metricas | valor=6760
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 481 | Conteudo: linha=481 | nome=Mariana | acao=comparou as metricas | valor=8917
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 496 | Conteudo: linha=496 | nome=Mariana | acao=otimizou o algoritmo | valor=2754
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 499 | Conteudo: linha=499 | nome=Mariana | acao=participou da aula | valor=8665
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 509 | Conteudo: linha=509 | nome=Mariana | acao=comparou as metricas | valor=3868
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 512 | Conteudo: linha=512 | nome=Mariana | acao=executou o benchmark | valor=2724
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 518 | Conteudo: linha=518 | nome=Mariana | acao=analisou os resultados | valor=4050
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 521 | Conteudo: linha=521 | nome=Mariana | acao=otimizou o algoritmo | valor=7206
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 527 | Conteudo: linha=527 | nome=Mariana | acao=fez um experimento | valor=8408
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 533 | Conteudo: linha=533 | nome=Mariana | acao=analisou os resultados | valor=6200
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 545 | Conteudo: linha=545 | nome=Mariana | acao=executou o benchmark | valor=1598
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 546 | Conteudo: linha=546 | nome=Mariana | acao=comparou as metricas | valor=8662
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 565 | Conteudo: linha=565 | nome=Mariana | acao=estudou computacao | valor=1531
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 568 | Conteudo: linha=568 | nome=Mariana | acao=estudou computacao | valor=8420
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 595 | Conteudo: linha=595 | nome=Mariana | acao=comparou as metricas | valor=1090
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 596 | Conteudo: linha=596 | nome=Mariana | acao=comparou as metricas | valor=5365
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 618 | Conteudo: linha=618 | nome=Mariana | acao=analisou os resultados | valor=3581
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 620 | Conteudo: linha=620 | nome=Mariana | acao=analisou os resultados | valor=8832
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 642 | Conteudo: linha=642 | nome=Mariana | acao=otimizou o algoritmo | valor=9120
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 651 | Conteudo: linha=651 | nome=Mariana | acao=otimizou o algoritmo | valor=4024
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 662 | Conteudo: linha=662 | nome=Mariana | acao=analisou os resultados | valor=3670
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 667 | Conteudo: linha=667 | nome=Mariana | acao=fez um experimento | valor=8329
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 687 | Conteudo: linha=687 | nome=Mariana | acao=fez um experimento | valor=9959
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 697 | Conteudo: linha=697 | nome=Mariana | acao=analisou os resultados | valor=1339
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 719 | Conteudo: linha=719 | nome=Mariana | acao=otimizou o algoritmo | valor=9587
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 738 | Conteudo: linha=738 | nome=Mariana | acao=executou o benchmark | valor=1222
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 745 | Conteudo: linha=745 | nome=Mariana | acao=analisou os resultados | valor=9813
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 751 | Conteudo: linha=751 | nome=Mariana | acao=comparou as metricas | valor=4335
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 752 | Conteudo: linha=752 | nome=Mariana | acao=estudou computacao | valor=5113
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 755 | Conteudo: linha=755 | nome=Mariana | acao=executou o benchmark | valor=8003
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 757 | Conteudo: linha=757 | nome=Mariana | acao=fez um experimento | valor=8128
+Arquivo: data/txt/lote_1/dados_007.txt | Linha: 758 | Conteudo: linha=758 | nome=Mariana | acao=estudou computacao | valor=8315
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 3 | Conteudo: linha=3 | nome=Mariana | acao=fez um experimento | valor=5128
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 38 | Conteudo: linha=38 | nome=Mariana | acao=participou da aula | valor=8238
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 51 | Conteudo: linha=51 | nome=Mariana | acao=participou da aula | valor=4663
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 56 | Conteudo: linha=56 | nome=Mariana | acao=estudou computacao | valor=8486
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 58 | Conteudo: linha=58 | nome=Mariana | acao=participou da aula | valor=3010
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 62 | Conteudo: linha=62 | nome=Mariana | acao=participou da aula | valor=8892
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 66 | Conteudo: linha=66 | nome=Mariana | acao=comparou as metricas | valor=6366
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 67 | Conteudo: linha=67 | nome=Mariana | acao=comparou as metricas | valor=9719
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 69 | Conteudo: linha=69 | nome=Mariana | acao=participou da aula | valor=5236
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 87 | Conteudo: linha=87 | nome=Mariana | acao=comparou as metricas | valor=1106
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 89 | Conteudo: linha=89 | nome=Mariana | acao=fez um experimento | valor=9500
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 123 | Conteudo: linha=123 | nome=Mariana | acao=comparou as metricas | valor=4132
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 127 | Conteudo: linha=127 | nome=Mariana | acao=comparou as metricas | valor=6251
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 141 | Conteudo: linha=141 | nome=Mariana | acao=fez um experimento | valor=1370
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 162 | Conteudo: linha=162 | nome=Mariana | acao=participou da aula | valor=2992
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 188 | Conteudo: linha=188 | nome=Mariana | acao=escreveu o relatorio | valor=5908
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 192 | Conteudo: linha=192 | nome=Mariana | acao=fez um experimento | valor=5836
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 197 | Conteudo: linha=197 | nome=Mariana | acao=participou da aula | valor=1846
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 202 | Conteudo: linha=202 | nome=Mariana | acao=executou o benchmark | valor=4075
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 204 | Conteudo: linha=204 | nome=Mariana | acao=participou da aula | valor=9949
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 205 | Conteudo: linha=205 | nome=Mariana | acao=comparou as metricas | valor=6794
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 209 | Conteudo: linha=209 | nome=Mariana | acao=executou o benchmark | valor=9118
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 213 | Conteudo: linha=213 | nome=Mariana | acao=otimizou o algoritmo | valor=2969
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 221 | Conteudo: linha=221 | nome=Mariana | acao=estudou computacao | valor=4703
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 241 | Conteudo: linha=241 | nome=Mariana | acao=participou da aula | valor=9753
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 253 | Conteudo: linha=253 | nome=Mariana | acao=otimizou o algoritmo | valor=7383
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 259 | Conteudo: linha=259 | nome=Mariana | acao=executou o benchmark | valor=2797
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 263 | Conteudo: linha=263 | nome=Mariana | acao=escreveu o relatorio | valor=1987
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 265 | Conteudo: linha=265 | nome=Mariana | acao=executou o benchmark | valor=8103
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 274 | Conteudo: linha=274 | nome=Mariana | acao=analisou os resultados | valor=5595
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 283 | Conteudo: linha=283 | nome=Mariana | acao=comparou as metricas | valor=5790
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 291 | Conteudo: linha=291 | nome=Mariana | acao=fez um experimento | valor=7325
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 312 | Conteudo: linha=312 | nome=Mariana | acao=executou o benchmark | valor=4236
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 323 | Conteudo: linha=323 | nome=Mariana | acao=comparou as metricas | valor=5016
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 336 | Conteudo: linha=336 | nome=Mariana | acao=escreveu o relatorio | valor=4842
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 348 | Conteudo: linha=348 | nome=Mariana | acao=fez um experimento | valor=3336
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 372 | Conteudo: linha=372 | nome=Mariana | acao=otimizou o algoritmo | valor=6163
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 378 | Conteudo: linha=378 | nome=Mariana | acao=fez um experimento | valor=4707
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 399 | Conteudo: linha=399 | nome=Mariana | acao=executou o benchmark | valor=1184
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 406 | Conteudo: linha=406 | nome=Mariana | acao=comparou as metricas | valor=5134
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 407 | Conteudo: linha=407 | nome=Mariana | acao=estudou computacao | valor=2867
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 408 | Conteudo: linha=408 | nome=Mariana | acao=fez um experimento | valor=3790
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 447 | Conteudo: linha=447 | nome=Mariana | acao=fez um experimento | valor=5420
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 451 | Conteudo: linha=451 | nome=Mariana | acao=analisou os resultados | valor=3055
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 452 | Conteudo: linha=452 | nome=Mariana | acao=participou da aula | valor=6791
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 464 | Conteudo: linha=464 | nome=Mariana | acao=participou da aula | valor=6476
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 480 | Conteudo: linha=480 | nome=Mariana | acao=escreveu o relatorio | valor=9685
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 488 | Conteudo: linha=488 | nome=Mariana | acao=participou da aula | valor=3731
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 489 | Conteudo: linha=489 | nome=Mariana | acao=estudou computacao | valor=6792
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 491 | Conteudo: linha=491 | nome=Mariana | acao=executou o benchmark | valor=9016
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 497 | Conteudo: linha=497 | nome=Mariana | acao=executou o benchmark | valor=5441
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 498 | Conteudo: linha=498 | nome=Mariana | acao=participou da aula | valor=5555
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 514 | Conteudo: linha=514 | nome=Mariana | acao=participou da aula | valor=7284
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 524 | Conteudo: linha=524 | nome=Mariana | acao=escreveu o relatorio | valor=3791
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 548 | Conteudo: linha=548 | nome=Mariana | acao=escreveu o relatorio | valor=4973
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 550 | Conteudo: linha=550 | nome=Mariana | acao=fez um experimento | valor=3213
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 554 | Conteudo: linha=554 | nome=Mariana | acao=analisou os resultados | valor=1124
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 556 | Conteudo: linha=556 | nome=Mariana | acao=fez um experimento | valor=4404
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 563 | Conteudo: linha=563 | nome=Mariana | acao=fez um experimento | valor=7406
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 583 | Conteudo: linha=583 | nome=Mariana | acao=otimizou o algoritmo | valor=6852
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 589 | Conteudo: linha=589 | nome=Mariana | acao=analisou os resultados | valor=4421
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 601 | Conteudo: linha=601 | nome=Mariana | acao=participou da aula | valor=6851
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 604 | Conteudo: linha=604 | nome=Mariana | acao=fez um experimento | valor=6027
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 623 | Conteudo: linha=623 | nome=Mariana | acao=analisou os resultados | valor=9764
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 626 | Conteudo: linha=626 | nome=Mariana | acao=otimizou o algoritmo | valor=3588
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 640 | Conteudo: linha=640 | nome=Mariana | acao=escreveu o relatorio | valor=9842
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 646 | Conteudo: linha=646 | nome=Mariana | acao=fez um experimento | valor=1080
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 666 | Conteudo: linha=666 | nome=Mariana | acao=analisou os resultados | valor=9551
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 691 | Conteudo: linha=691 | nome=Mariana | acao=participou da aula | valor=6761
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 701 | Conteudo: linha=701 | nome=Mariana | acao=estudou computacao | valor=4842
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 723 | Conteudo: linha=723 | nome=Mariana | acao=participou da aula | valor=9699
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 733 | Conteudo: linha=733 | nome=Mariana | acao=escreveu o relatorio | valor=4071
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 747 | Conteudo: linha=747 | nome=Mariana | acao=fez um experimento | valor=1560
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 748 | Conteudo: linha=748 | nome=Mariana | acao=comparou as metricas | valor=1099
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 758 | Conteudo: linha=758 | nome=Mariana | acao=fez um experimento | valor=7986
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 762 | Conteudo: linha=762 | nome=Mariana | acao=fez um experimento | valor=4079
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 776 | Conteudo: linha=776 | nome=Mariana | acao=otimizou o algoritmo | valor=9733
+Arquivo: data/txt/lote_1/dados_008.txt | Linha: 792 | Conteudo: linha=792 | nome=Mariana | acao=otimizou o algoritmo | valor=8343
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 1 | Conteudo: linha=1 | nome=Mariana | acao=fez um experimento | valor=6200
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 4 | Conteudo: linha=4 | nome=Mariana | acao=escreveu o relatorio | valor=7097
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 6 | Conteudo: linha=6 | nome=Mariana | acao=estudou computacao | valor=3996
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 15 | Conteudo: linha=15 | nome=Mariana | acao=estudou computacao | valor=1893
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 23 | Conteudo: linha=23 | nome=Mariana | acao=comparou as metricas | valor=2679
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 28 | Conteudo: linha=28 | nome=Mariana | acao=otimizou o algoritmo | valor=4811
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 30 | Conteudo: linha=30 | nome=Mariana | acao=participou da aula | valor=4255
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 42 | Conteudo: linha=42 | nome=Mariana | acao=fez um experimento | valor=1128
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 77 | Conteudo: linha=77 | nome=Mariana | acao=executou o benchmark | valor=9301
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 79 | Conteudo: linha=79 | nome=Mariana | acao=analisou os resultados | valor=2780
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 81 | Conteudo: linha=81 | nome=Mariana | acao=otimizou o algoritmo | valor=3689
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 83 | Conteudo: linha=83 | nome=Mariana | acao=analisou os resultados | valor=4900
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 96 | Conteudo: linha=96 | nome=Mariana | acao=escreveu o relatorio | valor=3423
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 124 | Conteudo: linha=124 | nome=Mariana | acao=comparou as metricas | valor=2912
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 126 | Conteudo: linha=126 | nome=Mariana | acao=fez um experimento | valor=4188
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 129 | Conteudo: linha=129 | nome=Mariana | acao=executou o benchmark | valor=6644
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 149 | Conteudo: linha=149 | nome=Mariana | acao=fez um experimento | valor=7075
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 168 | Conteudo: linha=168 | nome=Mariana | acao=fez um experimento | valor=5221
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 172 | Conteudo: linha=172 | nome=Mariana | acao=estudou computacao | valor=1885
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 174 | Conteudo: linha=174 | nome=Mariana | acao=estudou computacao | valor=6501
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 179 | Conteudo: linha=179 | nome=Mariana | acao=fez um experimento | valor=1664
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 201 | Conteudo: linha=201 | nome=Mariana | acao=comparou as metricas | valor=8270
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 209 | Conteudo: linha=209 | nome=Mariana | acao=otimizou o algoritmo | valor=7853
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 213 | Conteudo: linha=213 | nome=Mariana | acao=analisou os resultados | valor=8659
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 223 | Conteudo: linha=223 | nome=Mariana | acao=fez um experimento | valor=1267
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 226 | Conteudo: linha=226 | nome=Mariana | acao=escreveu o relatorio | valor=6086
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 227 | Conteudo: linha=227 | nome=Mariana | acao=estudou computacao | valor=7219
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 245 | Conteudo: linha=245 | nome=Mariana | acao=estudou computacao | valor=7254
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 248 | Conteudo: linha=248 | nome=Mariana | acao=analisou os resultados | valor=6958
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 267 | Conteudo: linha=267 | nome=Mariana | acao=comparou as metricas | valor=9999
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 292 | Conteudo: linha=292 | nome=Mariana | acao=escreveu o relatorio | valor=7823
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 306 | Conteudo: linha=306 | nome=Mariana | acao=comparou as metricas | valor=6783
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 313 | Conteudo: linha=313 | nome=Mariana | acao=otimizou o algoritmo | valor=6842
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 327 | Conteudo: linha=327 | nome=Mariana | acao=comparou as metricas | valor=1339
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 330 | Conteudo: linha=330 | nome=Mariana | acao=comparou as metricas | valor=5048
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 347 | Conteudo: linha=347 | nome=Mariana | acao=analisou os resultados | valor=7516
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 351 | Conteudo: linha=351 | nome=Mariana | acao=fez um experimento | valor=7912
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 359 | Conteudo: linha=359 | nome=Mariana | acao=comparou as metricas | valor=7946
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 374 | Conteudo: linha=374 | nome=Mariana | acao=comparou as metricas | valor=3033
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 379 | Conteudo: linha=379 | nome=Mariana | acao=fez um experimento | valor=9766
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 390 | Conteudo: linha=390 | nome=Mariana | acao=estudou computacao | valor=7363
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 391 | Conteudo: linha=391 | nome=Mariana | acao=comparou as metricas | valor=7556
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 400 | Conteudo: linha=400 | nome=Mariana | acao=executou o benchmark | valor=1094
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 410 | Conteudo: linha=410 | nome=Mariana | acao=participou da aula | valor=3040
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 427 | Conteudo: linha=427 | nome=Mariana | acao=escreveu o relatorio | valor=5826
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 435 | Conteudo: linha=435 | nome=Mariana | acao=fez um experimento | valor=6834
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 449 | Conteudo: linha=449 | nome=Mariana | acao=comparou as metricas | valor=3941
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 454 | Conteudo: linha=454 | nome=Mariana | acao=escreveu o relatorio | valor=8482
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 456 | Conteudo: linha=456 | nome=Mariana | acao=analisou os resultados | valor=8736
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 472 | Conteudo: linha=472 | nome=Mariana | acao=participou da aula | valor=7126
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 484 | Conteudo: linha=484 | nome=Mariana | acao=otimizou o algoritmo | valor=2220
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 496 | Conteudo: linha=496 | nome=Mariana | acao=comparou as metricas | valor=7867
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 500 | Conteudo: linha=500 | nome=Mariana | acao=estudou computacao | valor=8967
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 526 | Conteudo: linha=526 | nome=Mariana | acao=executou o benchmark | valor=2531
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 527 | Conteudo: linha=527 | nome=Mariana | acao=executou o benchmark | valor=8609
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 528 | Conteudo: linha=528 | nome=Mariana | acao=executou o benchmark | valor=7215
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 555 | Conteudo: linha=555 | nome=Mariana | acao=estudou computacao | valor=2412
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 571 | Conteudo: linha=571 | nome=Mariana | acao=participou da aula | valor=4424
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 573 | Conteudo: linha=573 | nome=Mariana | acao=estudou computacao | valor=8572
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 601 | Conteudo: linha=601 | nome=Mariana | acao=estudou computacao | valor=8168
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 616 | Conteudo: linha=616 | nome=Mariana | acao=analisou os resultados | valor=3743
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 618 | Conteudo: linha=618 | nome=Mariana | acao=executou o benchmark | valor=1310
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 619 | Conteudo: linha=619 | nome=Mariana | acao=executou o benchmark | valor=1077
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 620 | Conteudo: linha=620 | nome=Mariana | acao=analisou os resultados | valor=8056
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 629 | Conteudo: linha=629 | nome=Mariana | acao=escreveu o relatorio | valor=5271
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 632 | Conteudo: linha=632 | nome=Mariana | acao=escreveu o relatorio | valor=5914
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 640 | Conteudo: linha=640 | nome=Mariana | acao=comparou as metricas | valor=1244
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 657 | Conteudo: linha=657 | nome=Mariana | acao=otimizou o algoritmo | valor=7128
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 658 | Conteudo: linha=658 | nome=Mariana | acao=participou da aula | valor=5098
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 661 | Conteudo: linha=661 | nome=Mariana | acao=participou da aula | valor=3870
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 673 | Conteudo: linha=673 | nome=Mariana | acao=analisou os resultados | valor=5257
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 675 | Conteudo: linha=675 | nome=Mariana | acao=participou da aula | valor=4474
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 679 | Conteudo: linha=679 | nome=Mariana | acao=escreveu o relatorio | valor=4812
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 696 | Conteudo: linha=696 | nome=Mariana | acao=analisou os resultados | valor=7204
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 697 | Conteudo: linha=697 | nome=Mariana | acao=escreveu o relatorio | valor=6149
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 698 | Conteudo: linha=698 | nome=Mariana | acao=estudou computacao | valor=7322
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 705 | Conteudo: linha=705 | nome=Mariana | acao=analisou os resultados | valor=4378
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 712 | Conteudo: linha=712 | nome=Mariana | acao=analisou os resultados | valor=2730
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 714 | Conteudo: linha=714 | nome=Mariana | acao=comparou as metricas | valor=1406
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 728 | Conteudo: linha=728 | nome=Mariana | acao=executou o benchmark | valor=2262
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 731 | Conteudo: linha=731 | nome=Mariana | acao=otimizou o algoritmo | valor=9106
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 749 | Conteudo: linha=749 | nome=Mariana | acao=participou da aula | valor=7729
+Arquivo: data/txt/lote_1/dados_009.txt | Linha: 785 | Conteudo: linha=785 | nome=Mariana | acao=escreveu o relatorio | valor=8951
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 1 | Conteudo: linha=1 | nome=Mariana | acao=analisou os resultados | valor=8830
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 5 | Conteudo: linha=5 | nome=Mariana | acao=escreveu o relatorio | valor=3148
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 14 | Conteudo: linha=14 | nome=Mariana | acao=escreveu o relatorio | valor=5734
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 31 | Conteudo: linha=31 | nome=Mariana | acao=otimizou o algoritmo | valor=6560
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 32 | Conteudo: linha=32 | nome=Mariana | acao=executou o benchmark | valor=1062
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 42 | Conteudo: linha=42 | nome=Mariana | acao=escreveu o relatorio | valor=7169
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 44 | Conteudo: linha=44 | nome=Mariana | acao=otimizou o algoritmo | valor=3459
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 46 | Conteudo: linha=46 | nome=Mariana | acao=escreveu o relatorio | valor=2764
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 71 | Conteudo: linha=71 | nome=Mariana | acao=comparou as metricas | valor=8161
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 118 | Conteudo: linha=118 | nome=Mariana | acao=otimizou o algoritmo | valor=2287
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 121 | Conteudo: linha=121 | nome=Mariana | acao=estudou computacao | valor=2157
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 135 | Conteudo: linha=135 | nome=Mariana | acao=comparou as metricas | valor=2726
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 137 | Conteudo: linha=137 | nome=Mariana | acao=analisou os resultados | valor=6865
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 146 | Conteudo: linha=146 | nome=Mariana | acao=escreveu o relatorio | valor=4647
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 162 | Conteudo: linha=162 | nome=Mariana | acao=comparou as metricas | valor=4806
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 180 | Conteudo: linha=180 | nome=Mariana | acao=fez um experimento | valor=8499
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 181 | Conteudo: linha=181 | nome=Mariana | acao=participou da aula | valor=3884
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 208 | Conteudo: linha=208 | nome=Mariana | acao=estudou computacao | valor=6331
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 215 | Conteudo: linha=215 | nome=Mariana | acao=executou o benchmark | valor=4701
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 228 | Conteudo: linha=228 | nome=Mariana | acao=executou o benchmark | valor=9660
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 239 | Conteudo: linha=239 | nome=Mariana | acao=analisou os resultados | valor=3723
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 268 | Conteudo: linha=268 | nome=Mariana | acao=executou o benchmark | valor=9731
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 272 | Conteudo: linha=272 | nome=Mariana | acao=analisou os resultados | valor=1032
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 273 | Conteudo: linha=273 | nome=Mariana | acao=executou o benchmark | valor=9689
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 294 | Conteudo: linha=294 | nome=Mariana | acao=participou da aula | valor=4746
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 300 | Conteudo: linha=300 | nome=Mariana | acao=executou o benchmark | valor=7891
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 309 | Conteudo: linha=309 | nome=Mariana | acao=fez um experimento | valor=9452
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 311 | Conteudo: linha=311 | nome=Mariana | acao=estudou computacao | valor=8240
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 318 | Conteudo: linha=318 | nome=Mariana | acao=fez um experimento | valor=3955
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 319 | Conteudo: linha=319 | nome=Mariana | acao=otimizou o algoritmo | valor=9192
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 341 | Conteudo: linha=341 | nome=Mariana | acao=analisou os resultados | valor=7709
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 350 | Conteudo: linha=350 | nome=Mariana | acao=analisou os resultados | valor=2723
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 351 | Conteudo: linha=351 | nome=Mariana | acao=escreveu o relatorio | valor=3433
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 359 | Conteudo: linha=359 | nome=Mariana | acao=estudou computacao | valor=5186
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 366 | Conteudo: linha=366 | nome=Mariana | acao=fez um experimento | valor=1560
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 396 | Conteudo: linha=396 | nome=Mariana | acao=estudou computacao | valor=4622
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 410 | Conteudo: linha=410 | nome=Mariana | acao=fez um experimento | valor=6865
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 411 | Conteudo: linha=411 | nome=Mariana | acao=escreveu o relatorio | valor=2161
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 421 | Conteudo: linha=421 | nome=Mariana | acao=fez um experimento | valor=9695
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 469 | Conteudo: linha=469 | nome=Mariana | acao=comparou as metricas | valor=5710
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 505 | Conteudo: linha=505 | nome=Mariana | acao=participou da aula | valor=8906
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 506 | Conteudo: linha=506 | nome=Mariana | acao=otimizou o algoritmo | valor=7634
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 509 | Conteudo: linha=509 | nome=Mariana | acao=escreveu o relatorio | valor=6188
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 521 | Conteudo: linha=521 | nome=Mariana | acao=escreveu o relatorio | valor=5908
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 532 | Conteudo: linha=532 | nome=Mariana | acao=escreveu o relatorio | valor=7851
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 540 | Conteudo: linha=540 | nome=Mariana | acao=executou o benchmark | valor=7223
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 541 | Conteudo: linha=541 | nome=Mariana | acao=analisou os resultados | valor=7386
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 546 | Conteudo: linha=546 | nome=Mariana | acao=participou da aula | valor=8341
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 549 | Conteudo: linha=549 | nome=Mariana | acao=fez um experimento | valor=4596
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 551 | Conteudo: linha=551 | nome=Mariana | acao=estudou computacao | valor=6557
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 577 | Conteudo: linha=577 | nome=Mariana | acao=comparou as metricas | valor=5974
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 580 | Conteudo: linha=580 | nome=Mariana | acao=escreveu o relatorio | valor=6738
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 588 | Conteudo: linha=588 | nome=Mariana | acao=executou o benchmark | valor=6175
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 632 | Conteudo: linha=632 | nome=Mariana | acao=comparou as metricas | valor=7877
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 637 | Conteudo: linha=637 | nome=Mariana | acao=otimizou o algoritmo | valor=1841
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 641 | Conteudo: linha=641 | nome=Mariana | acao=otimizou o algoritmo | valor=9152
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 643 | Conteudo: linha=643 | nome=Mariana | acao=fez um experimento | valor=6873
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 644 | Conteudo: linha=644 | nome=Mariana | acao=escreveu o relatorio | valor=1641
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 676 | Conteudo: linha=676 | nome=Mariana | acao=executou o benchmark | valor=9668
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 678 | Conteudo: linha=678 | nome=Mariana | acao=analisou os resultados | valor=6882
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 696 | Conteudo: linha=696 | nome=Mariana | acao=otimizou o algoritmo | valor=4861
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 713 | Conteudo: linha=713 | nome=Mariana | acao=estudou computacao | valor=5495
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 714 | Conteudo: linha=714 | nome=Mariana | acao=estudou computacao | valor=5088
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 718 | Conteudo: linha=718 | nome=Mariana | acao=analisou os resultados | valor=8033
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 719 | Conteudo: linha=719 | nome=Mariana | acao=executou o benchmark | valor=5100
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 771 | Conteudo: linha=771 | nome=Mariana | acao=fez um experimento | valor=4409
+Arquivo: data/txt/lote_1/dados_010.txt | Linha: 778 | Conteudo: linha=778 | nome=Mariana | acao=escreveu o relatorio | valor=8036
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 1 | Conteudo: linha=1 | nome=Mariana | acao=analisou os resultados | valor=3800
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 8 | Conteudo: linha=8 | nome=Mariana | acao=analisou os resultados | valor=1499
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 13 | Conteudo: linha=13 | nome=Mariana | acao=comparou as metricas | valor=9501
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 22 | Conteudo: linha=22 | nome=Mariana | acao=fez um experimento | valor=4492
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 32 | Conteudo: linha=32 | nome=Mariana | acao=participou da aula | valor=6719
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 38 | Conteudo: linha=38 | nome=Mariana | acao=executou o benchmark | valor=2360
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 57 | Conteudo: linha=57 | nome=Mariana | acao=analisou os resultados | valor=3393
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 66 | Conteudo: linha=66 | nome=Mariana | acao=escreveu o relatorio | valor=9302
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 69 | Conteudo: linha=69 | nome=Mariana | acao=fez um experimento | valor=9322
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 70 | Conteudo: linha=70 | nome=Mariana | acao=otimizou o algoritmo | valor=4112
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 76 | Conteudo: linha=76 | nome=Mariana | acao=escreveu o relatorio | valor=6379
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 91 | Conteudo: linha=91 | nome=Mariana | acao=otimizou o algoritmo | valor=4802
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 98 | Conteudo: linha=98 | nome=Mariana | acao=executou o benchmark | valor=5183
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 113 | Conteudo: linha=113 | nome=Mariana | acao=analisou os resultados | valor=4000
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 120 | Conteudo: linha=120 | nome=Mariana | acao=escreveu o relatorio | valor=7971
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 125 | Conteudo: linha=125 | nome=Mariana | acao=analisou os resultados | valor=2776
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 126 | Conteudo: linha=126 | nome=Mariana | acao=executou o benchmark | valor=8898
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 128 | Conteudo: linha=128 | nome=Mariana | acao=participou da aula | valor=6117
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 175 | Conteudo: linha=175 | nome=Mariana | acao=executou o benchmark | valor=8055
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 185 | Conteudo: linha=185 | nome=Mariana | acao=fez um experimento | valor=8987
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 188 | Conteudo: linha=188 | nome=Mariana | acao=analisou os resultados | valor=5519
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 191 | Conteudo: linha=191 | nome=Mariana | acao=analisou os resultados | valor=7339
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 197 | Conteudo: linha=197 | nome=Mariana | acao=escreveu o relatorio | valor=7821
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 202 | Conteudo: linha=202 | nome=Mariana | acao=participou da aula | valor=1708
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 215 | Conteudo: linha=215 | nome=Mariana | acao=analisou os resultados | valor=5279
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 219 | Conteudo: linha=219 | nome=Mariana | acao=comparou as metricas | valor=7044
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 229 | Conteudo: linha=229 | nome=Mariana | acao=executou o benchmark | valor=4687
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 235 | Conteudo: linha=235 | nome=Mariana | acao=estudou computacao | valor=4166
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 250 | Conteudo: linha=250 | nome=Mariana | acao=fez um experimento | valor=8858
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 260 | Conteudo: linha=260 | nome=Mariana | acao=participou da aula | valor=7505
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 263 | Conteudo: linha=263 | nome=Mariana | acao=executou o benchmark | valor=6570
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 282 | Conteudo: linha=282 | nome=Mariana | acao=analisou os resultados | valor=3241
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 289 | Conteudo: linha=289 | nome=Mariana | acao=otimizou o algoritmo | valor=1538
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 292 | Conteudo: linha=292 | nome=Mariana | acao=escreveu o relatorio | valor=6659
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 302 | Conteudo: linha=302 | nome=Mariana | acao=escreveu o relatorio | valor=2403
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 306 | Conteudo: linha=306 | nome=Mariana | acao=estudou computacao | valor=3342
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 313 | Conteudo: linha=313 | nome=Mariana | acao=estudou computacao | valor=1630
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 340 | Conteudo: linha=340 | nome=Mariana | acao=escreveu o relatorio | valor=8127
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 343 | Conteudo: linha=343 | nome=Mariana | acao=analisou os resultados | valor=1180
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 349 | Conteudo: linha=349 | nome=Mariana | acao=escreveu o relatorio | valor=9498
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 366 | Conteudo: linha=366 | nome=Mariana | acao=estudou computacao | valor=1961
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 395 | Conteudo: linha=395 | nome=Mariana | acao=participou da aula | valor=4290
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 401 | Conteudo: linha=401 | nome=Mariana | acao=comparou as metricas | valor=1636
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 415 | Conteudo: linha=415 | nome=Mariana | acao=analisou os resultados | valor=7222
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 441 | Conteudo: linha=441 | nome=Mariana | acao=escreveu o relatorio | valor=8270
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 457 | Conteudo: linha=457 | nome=Mariana | acao=otimizou o algoritmo | valor=3282
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 461 | Conteudo: linha=461 | nome=Mariana | acao=escreveu o relatorio | valor=8041
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 469 | Conteudo: linha=469 | nome=Mariana | acao=comparou as metricas | valor=7244
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 485 | Conteudo: linha=485 | nome=Mariana | acao=analisou os resultados | valor=3106
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 488 | Conteudo: linha=488 | nome=Mariana | acao=escreveu o relatorio | valor=3805
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 494 | Conteudo: linha=494 | nome=Mariana | acao=comparou as metricas | valor=9327
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 507 | Conteudo: linha=507 | nome=Mariana | acao=comparou as metricas | valor=9985
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 540 | Conteudo: linha=540 | nome=Mariana | acao=participou da aula | valor=4786
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 558 | Conteudo: linha=558 | nome=Mariana | acao=escreveu o relatorio | valor=5367
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 566 | Conteudo: linha=566 | nome=Mariana | acao=comparou as metricas | valor=4150
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 567 | Conteudo: linha=567 | nome=Mariana | acao=analisou os resultados | valor=3232
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 581 | Conteudo: linha=581 | nome=Mariana | acao=analisou os resultados | valor=2955
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 588 | Conteudo: linha=588 | nome=Mariana | acao=analisou os resultados | valor=8969
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 605 | Conteudo: linha=605 | nome=Mariana | acao=escreveu o relatorio | valor=7930
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 607 | Conteudo: linha=607 | nome=Mariana | acao=comparou as metricas | valor=7602
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 614 | Conteudo: linha=614 | nome=Mariana | acao=comparou as metricas | valor=4218
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 616 | Conteudo: linha=616 | nome=Mariana | acao=participou da aula | valor=5477
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 626 | Conteudo: linha=626 | nome=Mariana | acao=escreveu o relatorio | valor=4080
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 644 | Conteudo: linha=644 | nome=Mariana | acao=estudou computacao | valor=1586
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 656 | Conteudo: linha=656 | nome=Mariana | acao=executou o benchmark | valor=5733
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 670 | Conteudo: linha=670 | nome=Mariana | acao=participou da aula | valor=8591
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 677 | Conteudo: linha=677 | nome=Mariana | acao=escreveu o relatorio | valor=8948
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 698 | Conteudo: linha=698 | nome=Mariana | acao=participou da aula | valor=8678
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 710 | Conteudo: linha=710 | nome=Mariana | acao=escreveu o relatorio | valor=8679
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 712 | Conteudo: linha=712 | nome=Mariana | acao=analisou os resultados | valor=5748
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 734 | Conteudo: linha=734 | nome=Mariana | acao=fez um experimento | valor=5649
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 743 | Conteudo: linha=743 | nome=Mariana | acao=analisou os resultados | valor=6176
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 744 | Conteudo: linha=744 | nome=Mariana | acao=fez um experimento | valor=1244
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 749 | Conteudo: linha=749 | nome=Mariana | acao=analisou os resultados | valor=3804
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 750 | Conteudo: linha=750 | nome=Mariana | acao=participou da aula | valor=1032
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 767 | Conteudo: linha=767 | nome=Mariana | acao=estudou computacao | valor=5204
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 778 | Conteudo: linha=778 | nome=Mariana | acao=escreveu o relatorio | valor=4492
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 780 | Conteudo: linha=780 | nome=Mariana | acao=otimizou o algoritmo | valor=6212
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 794 | Conteudo: linha=794 | nome=Mariana | acao=comparou as metricas | valor=5550
+Arquivo: data/txt/lote_2/dados_011.txt | Linha: 797 | Conteudo: linha=797 | nome=Mariana | acao=estudou computacao | valor=5677
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 2 | Conteudo: linha=2 | nome=Mariana | acao=analisou os resultados | valor=5641
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 72 | Conteudo: linha=72 | nome=Mariana | acao=otimizou o algoritmo | valor=4213
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 88 | Conteudo: linha=88 | nome=Mariana | acao=executou o benchmark | valor=8218
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 92 | Conteudo: linha=92 | nome=Mariana | acao=escreveu o relatorio | valor=5997
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 105 | Conteudo: linha=105 | nome=Mariana | acao=fez um experimento | valor=4507
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 106 | Conteudo: linha=106 | nome=Mariana | acao=estudou computacao | valor=6013
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 110 | Conteudo: linha=110 | nome=Mariana | acao=estudou computacao | valor=9066
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 130 | Conteudo: linha=130 | nome=Mariana | acao=executou o benchmark | valor=2664
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 147 | Conteudo: linha=147 | nome=Mariana | acao=participou da aula | valor=4467
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 154 | Conteudo: linha=154 | nome=Mariana | acao=analisou os resultados | valor=6791
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 166 | Conteudo: linha=166 | nome=Mariana | acao=otimizou o algoritmo | valor=4916
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 171 | Conteudo: linha=171 | nome=Mariana | acao=estudou computacao | valor=6435
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 190 | Conteudo: linha=190 | nome=Mariana | acao=estudou computacao | valor=2060
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 197 | Conteudo: linha=197 | nome=Mariana | acao=fez um experimento | valor=2932
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 199 | Conteudo: linha=199 | nome=Mariana | acao=participou da aula | valor=6398
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 214 | Conteudo: linha=214 | nome=Mariana | acao=executou o benchmark | valor=4709
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 219 | Conteudo: linha=219 | nome=Mariana | acao=otimizou o algoritmo | valor=2962
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 222 | Conteudo: linha=222 | nome=Mariana | acao=fez um experimento | valor=8070
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 245 | Conteudo: linha=245 | nome=Mariana | acao=escreveu o relatorio | valor=6914
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 248 | Conteudo: linha=248 | nome=Mariana | acao=fez um experimento | valor=2893
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 263 | Conteudo: linha=263 | nome=Mariana | acao=executou o benchmark | valor=7318
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 272 | Conteudo: linha=272 | nome=Mariana | acao=otimizou o algoritmo | valor=2342
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 276 | Conteudo: linha=276 | nome=Mariana | acao=otimizou o algoritmo | valor=9837
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 277 | Conteudo: linha=277 | nome=Mariana | acao=executou o benchmark | valor=3035
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 281 | Conteudo: linha=281 | nome=Mariana | acao=escreveu o relatorio | valor=2675
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 297 | Conteudo: linha=297 | nome=Mariana | acao=estudou computacao | valor=1507
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 298 | Conteudo: linha=298 | nome=Mariana | acao=otimizou o algoritmo | valor=7988
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 323 | Conteudo: linha=323 | nome=Mariana | acao=fez um experimento | valor=6887
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 324 | Conteudo: linha=324 | nome=Mariana | acao=otimizou o algoritmo | valor=7119
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 326 | Conteudo: linha=326 | nome=Mariana | acao=fez um experimento | valor=9259
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 353 | Conteudo: linha=353 | nome=Mariana | acao=estudou computacao | valor=6542
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 409 | Conteudo: linha=409 | nome=Mariana | acao=otimizou o algoritmo | valor=7816
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 414 | Conteudo: linha=414 | nome=Mariana | acao=participou da aula | valor=3425
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 433 | Conteudo: linha=433 | nome=Mariana | acao=comparou as metricas | valor=8415
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 436 | Conteudo: linha=436 | nome=Mariana | acao=participou da aula | valor=7652
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 465 | Conteudo: linha=465 | nome=Mariana | acao=escreveu o relatorio | valor=7120
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 493 | Conteudo: linha=493 | nome=Mariana | acao=participou da aula | valor=8576
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 517 | Conteudo: linha=517 | nome=Mariana | acao=analisou os resultados | valor=2729
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 522 | Conteudo: linha=522 | nome=Mariana | acao=escreveu o relatorio | valor=8720
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 528 | Conteudo: linha=528 | nome=Mariana | acao=participou da aula | valor=4988
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 547 | Conteudo: linha=547 | nome=Mariana | acao=fez um experimento | valor=3069
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 565 | Conteudo: linha=565 | nome=Mariana | acao=participou da aula | valor=5520
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 600 | Conteudo: linha=600 | nome=Mariana | acao=participou da aula | valor=9518
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 613 | Conteudo: linha=613 | nome=Mariana | acao=analisou os resultados | valor=6933
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 625 | Conteudo: linha=625 | nome=Mariana | acao=analisou os resultados | valor=5899
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 627 | Conteudo: linha=627 | nome=Mariana | acao=fez um experimento | valor=1459
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 637 | Conteudo: linha=637 | nome=Mariana | acao=participou da aula | valor=7090
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 639 | Conteudo: linha=639 | nome=Mariana | acao=otimizou o algoritmo | valor=8646
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 641 | Conteudo: linha=641 | nome=Mariana | acao=participou da aula | valor=8778
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 654 | Conteudo: linha=654 | nome=Mariana | acao=otimizou o algoritmo | valor=4370
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 673 | Conteudo: linha=673 | nome=Mariana | acao=analisou os resultados | valor=2586
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 690 | Conteudo: linha=690 | nome=Mariana | acao=analisou os resultados | valor=9966
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 706 | Conteudo: linha=706 | nome=Mariana | acao=fez um experimento | valor=4173
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 714 | Conteudo: linha=714 | nome=Mariana | acao=analisou os resultados | valor=7488
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 739 | Conteudo: linha=739 | nome=Mariana | acao=analisou os resultados | valor=3393
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 747 | Conteudo: linha=747 | nome=Mariana | acao=otimizou o algoritmo | valor=5451
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 749 | Conteudo: linha=749 | nome=Mariana | acao=analisou os resultados | valor=4536
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 752 | Conteudo: linha=752 | nome=Mariana | acao=executou o benchmark | valor=2986
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 778 | Conteudo: linha=778 | nome=Mariana | acao=executou o benchmark | valor=2926
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 786 | Conteudo: linha=786 | nome=Mariana | acao=analisou os resultados | valor=5562
+Arquivo: data/txt/lote_2/dados_012.txt | Linha: 799 | Conteudo: linha=799 | nome=Mariana | acao=comparou as metricas | valor=4114
