@@ -1,4 +1,5 @@
 # Trabalho 1 - Busca em Arquivos TXT com Threads
+## Grupo: Bernardo Búrigo, Bruno Baldessar, Gabriel Waltrick, Victor Antônio
 
 Projeto em Java para comparar busca sequencial e busca paralela em arquivos `.txt`.
 
