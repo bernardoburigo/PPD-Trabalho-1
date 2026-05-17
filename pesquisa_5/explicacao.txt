@@ -1,0 +1,21 @@
+Pesquisa 5 - Algoritmo KMP com Threads
+
+Esta versao usa o algoritmo Knuth-Morris-Pratt, conhecido como KMP, combinado com pool fixo de Threads.
+
+O KMP cria uma tabela auxiliar chamada LPS. Essa tabela indica para onde o algoritmo deve voltar quando ocorre uma diferenca entre o texto e o padrao buscado.
+Com isso, o algoritmo evita comparar novamente caracteres que ja foram analisados.
+
+Nesta implementacao, a tabela LPS e calculada uma unica vez para o texto buscado e reutilizada em todas as linhas analisadas.
+Os arquivos sao processados em paralelo por um ExecutorService com numero fixo de Threads.
+
+Vantagens:
+- Usa uma tecnica de busca diferente da comparacao simples.
+- Pode ser melhor em textos grandes ou padroes com repeticoes.
+- Mostra que desempenho depende tanto do paralelismo quanto do algoritmo.
+
+Limitacoes:
+- Para linhas pequenas, o ganho pode ser pequeno.
+- A implementacao e mais complexa que contains.
+- O acesso ao disco ainda pode limitar o Speed Up.
+
+Esta pesquisa atende ao ponto extra de algoritmo otimizado e tambem usa Threads.

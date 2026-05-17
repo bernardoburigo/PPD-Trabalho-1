@@ -1,0 +1,20 @@
+Pesquisa 4 - Divisao por blocos ou grupos de arquivos
+
+Nesta versao, o programa encontra todos os arquivos .txt e divide a lista em grupos.
+Cada Thread recebe um grupo. Dentro do grupo, a Thread processa os arquivos sequencialmente, um depois do outro.
+
+Exemplo:
+Thread 1 processa os primeiros arquivos.
+Thread 2 processa os arquivos seguintes.
+Thread 3 processa outro bloco, e assim por diante.
+
+Vantagens:
+- Reduz overhead em relacao a criar uma tarefa ou Thread para cada arquivo.
+- A estrategia e simples de explicar.
+- Pode funcionar bem quando os arquivos tem tamanhos parecidos.
+
+Desvantagens:
+- Pode haver desbalanceamento se um grupo tiver arquivos muito maiores.
+- Uma Thread pode ficar trabalhando enquanto outras ja terminaram.
+
+Essa abordagem e util para comparar com a pesquisa 2 e mostrar que o jeito de dividir o trabalho afeta o desempenho.

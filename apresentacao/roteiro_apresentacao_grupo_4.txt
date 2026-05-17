@@ -1,0 +1,73 @@
+Integrante 1 - Introducao e problema
+
+Bom dia. Neste trabalho, desenvolvemos um sistema capaz de percorrer arquivos de texto em um diretorio e buscar por um nome ou texto informado pelo usuario.
+O problema proposto envolve encontrar todos os arquivos .txt, ler todas as linhas desses arquivos e informar onde o texto aparece.
+
+Para cada ocorrencia encontrada, o sistema mostra o nome do arquivo, o numero da linha e o conteudo da linha.
+Primeiro, implementamos uma versao sequencial, sem paralelismo, para servir como base de comparacao.
+Depois, criamos versoes paralelas utilizando diferentes estrategias de Threads, com o objetivo de comparar o tempo de execucao e calcular o Speed Up.
+
+Threads sao unidades de execucao dentro de um processo. Quando usamos Threads, podemos dividir uma tarefa em partes menores e executar essas partes ao mesmo tempo.
+No nosso caso, a tarefa principal e buscar texto em varios arquivos.
+
+O objetivo do trabalho e verificar se a execucao paralela consegue reduzir o tempo total em comparacao com a execucao sequencial.
+
+Integrante 2 - Pesquisa 1 e Pesquisa 2
+
+A Pesquisa 1 e a busca sequencial simples.
+Ela nao usa Threads. O programa encontra os arquivos .txt do diretorio e processa um arquivo por vez.
+Dentro de cada arquivo, ele le linha por linha e usa contains para verificar se o texto buscado aparece naquela linha.
+
+Essa versao e importante porque serve como base de comparacao. Ela e simples, facil de entender e ajuda a validar se os resultados das outras pesquisas estao corretos.
+Por outro lado, pode ser mais lenta em diretorios grandes, porque enquanto um arquivo esta sendo processado, todos os outros precisam esperar.
+
+A Pesquisa 2 usa uma Thread por arquivo.
+Depois de encontrar os arquivos .txt, o programa cria uma Thread para cada arquivo. Cada Thread procura o texto no seu proprio arquivo.
+Os resultados sao armazenados em estruturas seguras para concorrencia, evitando problemas quando varias Threads tentam adicionar resultados ao mesmo tempo.
+
+Essa abordagem demonstra paralelismo de forma clara: varios arquivos podem ser lidos ao mesmo tempo.
+Mas tambem tem um risco importante. Se houver arquivos demais, o programa pode criar Threads demais, consumindo muita memoria e aumentando o overhead.
+Por isso, essa estrategia e boa para estudo, mas nem sempre e a mais eficiente em sistemas maiores.
+
+Integrante 3 - Pesquisa 3 e Pesquisa 4
+
+A Pesquisa 3 usa um pool fixo de Threads.
+Em vez de criar uma Thread para cada arquivo, o programa cria uma quantidade limitada de Threads, normalmente baseada na quantidade de nucleos do processador.
+Os arquivos sao enviados como tarefas para esse pool.
+
+Essa abordagem e mais controlada. Mesmo que existam muitos arquivos, o numero de Threads permanece limitado.
+Isso reduz o overhead e evita consumo excessivo de recursos.
+Por esse motivo, o pool fixo costuma ser uma solucao mais profissional e mais estavel.
+
+A Pesquisa 4 usa divisao por grupos de arquivos.
+O programa divide a lista de arquivos em blocos. Cada Thread recebe um grupo e processa seus arquivos sequencialmente.
+Por exemplo, uma Thread pode processar os arquivos de 1 a 20, outra os arquivos de 21 a 40, e assim por diante.
+
+Essa estrategia reduz a quantidade de tarefas e pode ser eficiente quando existem muitos arquivos pequenos.
+No entanto, pode haver desbalanceamento. Se um grupo tiver arquivos muito maiores que os outros, uma Thread pode demorar mais enquanto as outras ja terminaram.
+
+Com essas duas pesquisas, mostramos que nao basta apenas usar Threads. A forma como o trabalho e dividido influencia diretamente o desempenho.
+
+Integrante 4 - Pesquisa 5, Speed Up e conclusao
+
+A Pesquisa 5 combina Threads com um algoritmo de busca diferente: o KMP, ou Knuth-Morris-Pratt.
+Enquanto a busca simples usa contains, o KMP cria uma tabela auxiliar para evitar comparacoes repetidas.
+Quando ocorre uma diferenca entre o texto e o padrao buscado, o algoritmo sabe para onde deve voltar sem reiniciar toda a comparacao.
+
+Nesta versao, usamos KMP junto com um pool fixo de Threads.
+Assim, o trabalho e otimizado de duas formas: pela divisao paralela dos arquivos e pelo algoritmo de busca.
+
+Para comparar os resultados, usamos a metrica Speed Up.
+A formula e:
+
+Speed Up = Tempo da versao sequencial / Tempo da versao paralela
+
+Quando o Speed Up e maior que 1, significa que a versao paralela foi mais rapida que a sequencial.
+Quanto maior o valor, maior foi o ganho de desempenho.
+
+Por exemplo, se a versao sequencial demorou 100 milissegundos e a versao paralela demorou 50 milissegundos, o Speed Up foi 2.
+Isso significa que a versao paralela foi aproximadamente duas vezes mais rapida.
+
+Como conclusao, o trabalho mostrou que Threads podem melhorar o desempenho em buscas com muitos arquivos, mas o ganho depende da quantidade de arquivos, do tamanho dos arquivos, da quantidade de Threads e da velocidade do disco.
+Tambem vimos que criar Threads demais pode prejudicar o desempenho, e que estrategias como pool fixo e divisao por grupos ajudam a controlar melhor os recursos.
+Por fim, a Pesquisa 5 mostra que a escolha do algoritmo tambem pode influenciar o resultado, nao apenas o uso de paralelismo.

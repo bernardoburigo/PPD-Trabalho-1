@@ -1,0 +1,18 @@
+Pesquisa 2 - Uma Thread por arquivo
+
+Nesta versao, primeiro o programa encontra todos os arquivos .txt do diretorio informado. Depois, cria uma Thread para cada arquivo.
+Cada Thread le seu arquivo linha por linha e procura o texto usando contains.
+
+Os resultados sao agrupados em uma ConcurrentLinkedQueue, que e uma estrutura segura para uso concorrente. A quantidade total de linhas e somada com AtomicLong, evitando erro de concorrencia.
+Ao final, a Thread principal espera todas as Threads terminarem usando join.
+
+Vantagens:
+- Varios arquivos podem ser processados ao mesmo tempo.
+- A ideia de paralelismo fica clara para apresentacao.
+
+Riscos:
+- Criar Threads demais pode gerar overhead.
+- Muitas Threads podem competir por CPU, memoria e disco.
+- Em alguns casos, a versao paralela pode nao ser mais rapida que a sequencial.
+
+Esta pesquisa mostra uma forma simples de usar Threads, mas tambem mostra por que estrategias mais controladas, como pool fixo, podem ser melhores.

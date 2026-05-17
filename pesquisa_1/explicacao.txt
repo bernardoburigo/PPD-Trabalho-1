@@ -1,0 +1,18 @@
+Pesquisa 1 - Busca sequencial simples
+
+Esta versao percorre recursivamente o diretorio informado, encontra os arquivos com extensao .txt e processa um arquivo por vez.
+Dentro de cada arquivo, o programa le todas as linhas em ordem. Para cada linha, usa a operacao contains para verificar se o texto buscado aparece no conteudo.
+
+Quando encontra uma ocorrencia, armazena o caminho do arquivo, o numero da linha e o conteudo da linha.
+
+Vantagens:
+- E a implementacao mais simples.
+- E facil de entender e depurar.
+- O resultado serve como base de comparacao para as versoes paralelas.
+
+Desvantagens:
+- Nao usa mais de uma Thread.
+- Enquanto um arquivo esta sendo lido, os demais aguardam.
+- Pode ser mais lenta em diretorios grandes, principalmente quando ha muitos arquivos.
+
+Esta pesquisa representa o sistema sem Threads e deve ser usada para calcular o Speed Up das demais versoes.

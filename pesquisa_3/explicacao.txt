@@ -1,0 +1,16 @@
+Pesquisa 3 - Pool fixo de Threads
+
+Nesta versao, o programa usa ExecutorService com um numero fixo de Threads.
+Cada arquivo .txt e enviado como uma tarefa para o pool. O pool distribui as tarefas entre as Threads disponiveis.
+
+A diferenca para a pesquisa 2 e que aqui o numero de Threads e controlado. Mesmo que existam muitos arquivos, o programa nao cria uma Thread para cada um.
+Ao final, o programa usa Future para recuperar os resultados de cada tarefa e consolidar as ocorrencias.
+
+Vantagens:
+- Evita criacao excessiva de Threads.
+- Usa melhor os recursos do computador.
+- Costuma ser mais eficiente e estavel que uma Thread por arquivo.
+
+Impacto no Speed Up:
+- Pode melhorar bastante quando ha muitos arquivos.
+- O ganho depende da quantidade de Threads, do tamanho dos arquivos e da velocidade do disco.
